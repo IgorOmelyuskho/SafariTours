@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>somename</title>
+    <meta name="description" content="Простое руководство по HTML">
+    <link rel='stylesheet' href='css/style.css'>
+</head>
+
+<body>
+    <header>
+        <div class='container header-container'>
+            <a class='logo' href='#'><img src='img/logo.png'></a>
+            <nav class='main-nav'>
+                <ul class='menu'>
+                    <li><a href='#'>Home</a></li>
+                    <li><a href='#'>Packages</a></li>
+                    <li><a href='#'>Flights</a></li>
+                    <li><a href='#'>Trains</a></li>
+                    <li><a href='#'>Reach us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class='contant'>
+        <img class='cloud1' src='img/cloud1.png' alt=''>
+        <img class='cloud2' src='img/cloud2.png' alt=''>
+        <div class='container contant-container'>
+            <img class='planes' src='img/planes.png' alt=''>
+            <form id='form' action=''>
+                <img class='online-booking' src='img/online-booking.png' alt=''>
+                <img class='ladder' src='img/ladder.png' alt=''>
+                <label id='label-for-input-text' for="input-text">Name:</label>
+                <input id='input-text' type='text'>
+                <br>
+                <label id='label-for-input-email' for="input-email">email:</label>
+                <input id='input-email' type='email'>
+                <br>
+                <label id='label-for-input-list' for="input-list">Package:</label>
+                <input id='input-list' list="package">
+                <br>
+                <datalist id="package">
+                    <option>Africa</option>
+                    <option>Asia</option>
+                    <option>Australia</option>
+                    <option>Latin America</option>
+                    <option>America</option>
+                </datalist>
+                <label id='label-for-input-textarea' for="itextarea">message:</label>
+                <textarea id='textarea' name="textarea"></textarea>
+                <input id='input-submit' type="submit" value="Submit">
+            </form>
+            <div class='contant-info'>
+                <div class='contant-info-left'>
+                    <h3>Our special offers</h3>
+                    <div class='contant-info-left-item'>
+                        <img src='img/image1.png' alt=''>
+                        <h4>1914 translation</h4>
+                        <p>But I must explain to you how all this mistaken idea of denouncing</p>
+                        <div class='read-more'>700$
+                            <button>Read more</button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class='contant-info-left-item'>
+                        <img src='img/image2.png' alt=''>
+                        <h4>1914 translation</h4>
+                        <p>But I must explain to you how all this mistaken idea of denouncing</p>
+                        <div class='read-more'>700$
+                            <button>Read more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class='contant-info-right'>
+                    <div class='special-summer-offer'>
+                        <button id='btn1'>TOURS</button>
+                        <button id='btn2'>PHOTOS</button>
+                        <img src='img/special summer.png' alt=''>
+                    </div>
+                    <div class='travel-list'>
+                        <table>
+                            <tr>
+                                <td><img src='img/arrow.png'></td>
+                                <td>Alfreds Futterkiste</td>
+                                <td>10 Days</td>
+                                <td>more details</td>
+                            </tr>
+                            <tr>
+                                <td><img src='img/arrow.png'></td>
+                                <td>Centro comercial Moctezuma</td>
+                                <td>10 Days</td>
+                                <td>more details</td>
+                            </tr>
+                            <tr>
+                                <td><img src='img/arrow.png'></td>
+                                <td>Ernst Handel</td>
+                                <td>10 Days</td>
+                                <td>more details</td>
+                            </tr>
+                            <tr>
+                                <td><img src='img/arrow.png'></td>
+                                <td>Dummy text ever since the 1500s Ipsum is simpl</td>
+                                <td>10 Days</td>
+                                <td>more details</td>
+                            </tr>
+                            <tr>
+                                <td><img src='img/arrow.png'></td>
+                                <td>Laughing Bacchus Winecellars</td>
+                                <td>10 Days</td>
+                                <td>more details</td>
+                            </tr>
+                            <tr>
+                                <td><img src='img/arrow.png'></td>
+                                <td>Magazzini Alimentari Riuniti</td>
+                                <td>10 Days</td>
+                                <td>more details</td>
+                            </tr>
+                            <tr>
+                                <td><img src='img/arrow.png'></td>
+                                <td>Magazzini Alimentari Riuniti</td>
+                                <td>10 Days</td>
+                                <td>more details</td>
+                            </tr>
+                            <tr>
+                                <td><img src='img/arrow.png'></td>
+                                <td>Dummy text ever since the 1500s Ipsum is simpl text</td>
+                                <td>10 Days</td>
+                                <td>more details</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class='map'>
+        <div class='container'>
+            <h2>Find Tourist Spots by Map</h2>
+            <h3>Click on map</h3>
+            <div class='map-container'>
+                <img id='map' src='img/map.png'>
+                <img id='Asia' src='img/Asia.png'>
+                <img id='Europe' src='img/Europe.png'>
+                <img id='Africa' src='img/Africa.png'>
+                <img id='Australia' src='img/Australia.png'>
+                <img id='North-America' src='img/North America.png'>
+                <img id='South-America' src='img/South America.png'>
+                <div id='Africa-info' class='container-map-info arrow-right'>
+                    <div class='map-info'>
+                        <div class='place-info'>
+                            <img src='img/image1.png' alt=''>
+                            <h4>1914 translation </h4> But I must explain to you how all this
+                        </div>
+                        <div class='place-info'>
+                            <img src='img/image1.png' alt=''>
+                            <h4>1914 translation </h4> But I must explain to you how all this
+                        </div>
+                        <div class='place-info'>
+                            <img src='img/image1.png' alt=''>
+                            <h4>1914 translation </h4> But I must explain to you how all this
+                        </div>
+                        <div class='place-info'>
+                            <img src='img/image1.png' alt=''>
+                            <h4>1914 translation </h4> But I must explain to you how all this
+                        </div>
+                        <div class='place-info'>
+                            <img src='img/image1.png' alt=''>
+                            <h4>1914 translation </h4> But I must explain to you how all this
+                        </div>
+                    </div>
+                    <div class='continent'>Africa Tourism</div>
+                </div>
+            </div>
+    </section>
+    <footer>
+        <div class='container'>
+            <div class='news-lettet-social-btn'>
+                <div class='news-letter'>
+                    <h3>News letter</h3>
+                    <input type='text' placeholder='enter email address'>
+                    <button>Subscribe</button>
+                </div>
+                <div class='social-btn'>
+                    <h3>Social media</h3>
+                    <img src='img/linkedin.png' alt='linkedin'>
+                    <img src='img/facebook.png' alt='facebook'>
+                    <img src='img/twitter.png' alt='twitter'>
+                </div>
+            </div>
+            <div class='contact-us'>
+                <h3>Contact us</h3> Lorem Ipsum is simply dummy
+                <br> Printing and typesetting
+                <br> Phone : +97 -9945512832, 55418745
+                <br> email : mail@yourdomain.com :
+                <br>Info@yourdomain.com
+                <br> Fax : 1447854, 5564215, 55428
+            </div>
+            <form class='contact-form'>
+                <h3>Contact form</h3>
+                <input id='footer-input-text' type='text' placeholder='Name'>
+                <br>
+                <input id='footer-input-email' type='email' placeholder='email address'>
+                <br>
+                <input id='footer-input-phone' type="phone" placeholder='phone'>
+                <br>
+                <textarea id='footer-textarea' placeholder='message'></textarea>
+                <br>
+                <button>Submit</button>
+            </form>
+        </div>
+        <div class='copiryght'> &copy; Copyright 2013 cssauthor.com, All Rights Reserved      Designed and Developed By cssauthor.com</div>
+    </footer>
+    <script src='scripts/main-script.js'></script>
+</body>
+
+</html>
